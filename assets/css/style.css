@@ -1,0 +1,96 @@
+/* NoteKeeper - Custom Styles */
+
+body {
+    background-color: #f4f6fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.stat-card .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat-card .stat-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.note-card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    border-top: 5px solid #ffc107;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    height: 100%;
+}
+
+.note-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.note-card.color-yellow { border-top-color: #ffc107; }
+.note-card.color-green { border-top-color: #198754; }
+.note-card.color-blue { border-top-color: #0d6efd; }
+.note-card.color-pink { border-top-color: #d63384; }
+.note-card.color-purple { border-top-color: #6f42c1; }
+
+.note-card .card-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.note-card .card-text {
+    color: #495057;
+    font-size: 0.92rem;
+    white-space: pre-wrap;
+}
+
+.pin-badge {
+    font-size: 0.75rem;
+}
+
+.avatar-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.form-card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.color-option {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.color-option.selected {
+    border-color: #212529;
+}
